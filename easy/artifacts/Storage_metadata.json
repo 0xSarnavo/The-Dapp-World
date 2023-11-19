@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_a",
+						"type": "int256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DappWorld/easy/private.sol": "Storage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DappWorld/easy/private.sol": {
+			"keccak256": "0xad3f857049186e3aa9d1f53d9c39753d32e9c4dfa02e422bfbf8f599629fde85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://375d6548538daa3a9b08fb2475121a0313a755f69f33f1a0134349c988bebc7d",
+				"dweb:/ipfs/QmYpH7cJExWvng7cYoBEcK4JCHJKiBjcBNLuTZFYH3ehzB"
+			]
+		}
+	},
+	"version": 1
+}

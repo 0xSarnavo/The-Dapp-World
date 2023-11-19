@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "n",
+						"type": "int256"
+					}
+				],
+				"name": "addInteger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sumOfIntegers",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DappWorld/easy/abacus.sol": "Abacus"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DappWorld/easy/abacus.sol": {
+			"keccak256": "0x03e16a2143f49c9b2b26b6d3195e070d5c2b98c5476a09c56a50488be49e294f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f9628c717e5c287bd33f4738c49ea150d73ff1703f284c6b819e76de56e98f76",
+				"dweb:/ipfs/QmSbSkcvQfuKF1KrcaWaWD7fgsnebbkm76Cnwi1Zrodag9"
+			]
+		}
+	},
+	"version": 1
+}

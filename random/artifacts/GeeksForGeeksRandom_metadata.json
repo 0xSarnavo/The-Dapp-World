@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_modulus",
+						"type": "uint256"
+					}
+				],
+				"name": "randMod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Jitendra Kumar",
+			"kind": "dev",
+			"methods": {},
+			"title": "A contract for demonstrating random number generation in specific range",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "For now, this contract just show how to generate a random number in specific range using keccak256",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"random/randomNum.sol": "GeeksForGeeksRandom"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"random/randomNum.sol": {
+			"keccak256": "0xf3fdf135dd7c3072512e3ee00f606a27bc2f353740e5e606595bc33543326ea6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://05dde30a4ce180726ae2ad3b0b369204ee129ae6f3d23275c8c1533a072e6423",
+				"dweb:/ipfs/QmdBFSEReXYwRNsdRiPpwDaG9R2pqEkr25w34tZC7gz4Ho"
+			]
+		}
+	},
+	"version": 1
+}

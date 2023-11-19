@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "fibonacci",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DappWorld/easy/fibonacci.sol": "Fibonacci"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DappWorld/easy/fibonacci.sol": {
+			"keccak256": "0xf3a5c1acd00652e208eb2564478920d63f91c8d603638b241977f9175b95c421",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://045e0e063978d66b28c939185828f4a165bb98fe82032665fe49fcbfed5101ff",
+				"dweb:/ipfs/QmVc6FzQDwRXSzkffs8QdRtWmjY3UGDf3i4Yw8xp8NVcMk"
+			]
+		}
+	},
+	"version": 1
+}
